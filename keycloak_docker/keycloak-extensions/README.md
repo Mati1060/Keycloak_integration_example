@@ -8,5 +8,3 @@ Once you have your providers in this directory, run the following command to com
 ```
 ${kc.home.dir}/bin/kc.sh build
 ```
-
-here as an example i just added a Discord login capability
