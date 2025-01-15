@@ -1,6 +1,6 @@
 # Spring boot java Rest API
 ## config
-in the /com.test_keycloack_rest_api_java/src/main/resources/application.properties 
+In the /com.test_keycloack_rest_api_java/src/main/resources/application.properties 
 modify the variables according tou your keycloak config :
 ```properties
 keycloak.port=8080
@@ -13,7 +13,7 @@ jwt.auth.converter.resource-id=yourKeycloakclientID
 jwt.auth.converter.principle-attribute=preferred_username
 ```
 
-in the /com.test_keycloack_rest_api_java/src/main/java/com/local_test/keycloack/DemoController.java
+In the /com.test_keycloack_rest_api_java/src/main/java/com/local_test/keycloack/DemoController.java
 modify the variables according tou your keycloak config for the desired roles :
 ```java
 @RestController
